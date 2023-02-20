@@ -1,0 +1,238 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.DS312_Test"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:7:3-77
+19-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:7:20-74
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:8:3-65
+20-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:8:20-62
+21
+22    <uses-feature
+22-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+23        android:glEsVersion="0x00030000"
+23-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+24        android:required="true" />
+24-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:15:9-32
+25    <uses-feature
+25-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+27        android:required="false" />
+27-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+28    <uses-feature
+28-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+30        android:required="false" />
+30-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+31    <uses-feature
+31-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+33        android:required="false" />
+33-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+34
+35    <uses-permission android:name="android.permission.CAMERA" />
+35-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:17:5-65
+35-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:17:22-62
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:18:5-81
+36-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:18:22-78
+37    <uses-permission android:name="android.permission.NFC" />
+37-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:20:5-62
+37-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:20:22-59
+38
+39    <application
+39-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-6:17
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.7.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\f243f87f287fb4f4052bd069a9b71980\core-1.7.0\AndroidManifest.xml:24:18-86
+41        android:extractNativeLibs="true"
+41-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:18-50
+42        android:icon="@mipmap/app_icon"
+42-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+43        android:label="@string/app_name" >
+43-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+44        <meta-data
+44-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:5:5-79
+45            android:name="unity.builder"
+45-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:5:16-44
+46            android:value="\12370032660471" />
+46-->E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:5:45-76
+47
+48        <activity
+48-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-48:20
+49            android:name="com.unity3d.player.UnityPlayerActivity"
+49-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-66
+50            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+50-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-194
+51            android:exported="true"
+51-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-36
+52            android:hardwareAccelerated="false"
+52-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-48
+53            android:launchMode="singleTask"
+53-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-44
+54            android:resizeableActivity="false"
+54-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-47
+55            android:screenOrientation="reverseLandscape"
+55-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-57
+56            android:theme="@style/UnityThemeSelector" >
+56-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-54
+57            <intent-filter>
+57-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-40:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:17-69
+58-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-77
+60-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:27-74
+61            </intent-filter>
+62
+63            <meta-data
+63-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44:40
+64                android:name="unityplayer.UnityActivity"
+64-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-57
+65                android:value="true" />
+65-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:17-37
+66            <meta-data
+66-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+67                android:name="android.notch_support"
+67-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-53
+68                android:value="true" />
+68-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+69        </activity>
+70
+71        <meta-data
+71-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:9-52:33
+72            android:name="unity.splash-mode"
+72-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-45
+73            android:value="0" />
+73-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:13-30
+74        <meta-data
+74-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:36
+75            android:name="unity.splash-enable"
+75-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-47
+76            android:value="True" />
+76-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-33
+77        <meta-data
+77-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+78            android:name="unity.launch-fullscreen"
+78-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-51
+79            android:value="True" />
+79-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+80        <meta-data
+80-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:37
+81            android:name="unity.allow-resizable-window"
+81-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-56
+82            android:value="False" />
+82-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-34
+83        <meta-data
+83-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:50
+84            android:name="notch.config"
+84-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-40
+85            android:value="portrait|landscape" />
+85-->[:unityLibrary] E:\tzl\DS312_Test\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+86
+87        <activity
+87-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:23:9-27:66
+88            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+88-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:24:13-74
+89            android:exported="false"
+89-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:25:13-37
+90            android:label="@string/title_activity_qr_code_capture"
+90-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:26:13-67
+91            android:theme="@style/Theme.AppCompat.NoActionBar" />
+91-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:27:13-63
+92        <!--
+93          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+94          NFC tag is detected.
+95        -->
+96        <activity
+96-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:33:9-46:20
+97            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+97-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:34:13-77
+98            android:exported="true"
+98-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:35:13-36
+99            android:label="@string/headset_detection_activity_title" >
+99-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:36:13-69
+100
+101            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+102            <intent-filter>
+102-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:39:13-45:29
+103                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+103-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:40:17-77
+103-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:40:25-74
+104
+105                <category android:name="android.intent.category.DEFAULT" />
+105-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:42:17-76
+105-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:42:27-73
+106
+107                <data android:scheme="cardboard" />
+107-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:44:17-52
+107-->[:GfxPluginCardboard:] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\d0ee82cb3bb2d458898f561f88839aa6\jetified-GfxPluginCardboard\AndroidManifest.xml:44:23-49
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+111-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\8bdb0c92999354b2b1d964721d404219\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+114
+115        <meta-data
+115-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6347463628bd50dd35efaef4ec140c53\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+116            android:name="com.google.android.gms.version"
+116-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6347463628bd50dd35efaef4ec140c53\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+117            android:value="@integer/google_play_services_version" />
+117-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\6347463628bd50dd35efaef4ec140c53\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+118
+119        <provider
+119-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+121            android:authorities="com.DefaultCompany.DS312_Test.androidx-startup"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+122            android:exported="false" >
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+123            <meta-data
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+124                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+125                android:value="androidx.startup" />
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\0ff7e50bd8b7ebd74d628ddef8c0c85b\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+126            <meta-data
+126-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e06841608eedd99949a590a817674784\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+127                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e06841608eedd99949a590a817674784\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+128                android:value="androidx.startup" />
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\e06841608eedd99949a590a817674784\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+129        </provider>
+130    </application>
+131
+132</manifest>

@@ -1,0 +1,13 @@
+Using template 'E:/UnityItself/2021.3.18f1c1/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\UnityManifest.xml'
+
+android.permission.INTERNET was added because:
+	Analytics
+	Performance Reporting
+	Force Internet Permission
+android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
+	UnityEngine.Input::GetTouch was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Google.XR.Cardboard-FeaturesChecked.txt
+	UnityEngine.Input::get_touchCount was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Google.XR.Cardboard-FeaturesChecked.txt
